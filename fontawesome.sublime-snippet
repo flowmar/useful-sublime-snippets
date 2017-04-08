@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+        <script src="https://use.fontawesome.com/e75d8c103f.js"></script>
+]]></content>
+  <tabTrigger>fontawesome</tabTrigger>
+
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+  <description>Link to Font Awesome</description>
+</snippet>
