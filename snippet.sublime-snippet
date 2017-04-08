@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+<snippet>
+  <content><![CDATA[$1]]$NOT_DEFINED></content>
+
+  <tabTrigger>$2</tabTrigger>
+
+  <!-- OptionalL: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+  <description>$3</description>
+</snippet>
+]]></content>
+  
+  <tabTrigger>snippet</tabTrigger>
+  
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+  <description>Snippet of a new snippet. Meta!</description>
+
+</snippet>
+
