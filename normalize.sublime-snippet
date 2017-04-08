@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>normalize</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!--<scope>source.html</scope>-->
+  <description>Normalize.css CDN Link</description>
+</snippet>
