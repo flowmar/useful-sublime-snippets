@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+p {
+  display: none;
+  background color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+]]></content>
+
+  <tabTrigger>tooltip</tabTrigger>
+
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+  <description>Create a popup tooltip on Hover.</description>
+</snippet>

@@ -1,0 +1,101 @@
+<snippet>
+  <content><![CDATA[
+    // Page Structure
+    html {}
+    body {}
+    h1 {}
+    h2 {}
+    h3 {}
+    header {}
+    p {}
+    div {}
+    footer {}
+
+    /* Pseudo Classes */
+
+    // Not Selector (Selects everything that is not <p>)
+    :not(p)
+
+    // Unvivisted Link
+    a:link {}
+
+    // Visited Link
+    a:visited{}
+
+    // Mouse Over Link
+    a:hover {}
+
+    // Selected Link
+    a:active {}
+
+    // Select first child of every <p>
+    p:first-child {}
+
+    // Select last-child of every <p>
+    p:last-child
+
+    // Select every <p> that has no children
+    p:empty {}
+
+    // Select every <p> that is the first <p> of its parent
+    p:first-of-type {}
+
+    // Select every <p> that is the last child of its parent
+    p:last-of-type {}
+
+    // Select every checked <input>
+    input:checked {}
+
+    // Select every disabled <input>
+    input:disabled {}
+
+    // Select every enabled <input>
+    input:enabled {}
+
+    // Select the element that is focused
+    input:focused {}
+
+    // Select <input> with no 'required' attribute
+    input:optional {}
+
+    // Select <input> with a 'required' attribute
+    input: required {}
+
+    // Select elements with the 'read-only' attribute
+    :read-only {}
+
+    // Select elements with the 'read-write' attribute
+    :read-write {}
+
+    // Select document's root element
+    :root
+
+    // Select all <input> elements with a valid value
+    input:valid
+
+    /* Pseudo Elements */
+
+    // Insert content after every <p> element
+    p::after
+
+    // Insert content before every <p> element
+    p::before
+
+    // Select the first letter of every <p> element
+    p::first-letter
+
+    // Select the first line of every <p> element
+    p::first-line
+
+    // Selects the portion of an element that is selected by the user
+    p::selection
+]]></content>
+  
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cssreference</tabTrigger>
+
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  
+  <description>Reference Sheet for selectors and pseudo selectors.</description>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+// Page Structure
+    html {}
+    body {}
+    h1 {}
+    h2 {}
+    h3 {}
+    header {}
+    p {}
+    div {}
+    footer {}
+]]></content>
+
+  <tabTrigger>cssoutline</tabTrigger>
+
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+
+  <description>Outline of basic structural elements.</description>
+</snippet>

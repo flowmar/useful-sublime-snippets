@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+    <!-- For a complete reference, visit https://www.w3schools.com/w3css/w3css_references.asp-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+]]></content>
+
+  <tabTrigger>w3css</tabTrigger>
+
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  
+  <description>Link to include w3css in your page.</description>
+</snippet>
